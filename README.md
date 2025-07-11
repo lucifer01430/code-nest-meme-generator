@@ -73,3 +73,19 @@ If you'd like to improve something, please open a PR or create an issue to discu
 
 ---
 
+## 🙋‍♂️ About Me
+
+Hi, I'm **Harsh Pandey**, also known online as [@sasta_developer0143](https://www.instagram.com/sasta_developer0143) — a self-taught web development enthusiast from India, learning step-by-step while balancing a full-time job.
+
+---
+
+## 🤝 Connect With Me
+
+- 📸 Instagram: [@sasta_developer0143](https://www.instagram.com/sasta_developer0143)  
+- 📸 Personal Instagram: [@lucifer__1430](https://www.instagram.com/lucifer__1430)  
+- 💼 Portfolio: [Harsh](https://lucifer01430.github.io/Portfolio/)  
+- 📧 Email: harshpandeylucifer@gmail.com
+
+---
+
+> ⭐ **If you find this helpful, consider giving the repo a star!**
