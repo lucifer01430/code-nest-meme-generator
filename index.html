@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Create memes easily with a professional meme generator. Responsive for all devices. Developed by Harsh Pandey.">
+    <meta name="author" content="Harsh Pandey">
+    <meta property="og:title" content="Pro Meme Generator by Harsh Pandey">
+    <meta property="og:description" content="Create memes easily with a professional meme generator. Responsive for all devices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lucifer01430.github.io/Portfolio/">
+    <meta property="og:image" content="/meme-preview.png">
+    <title>Pro Meme Generator</title>
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Impact" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/17985/17985541.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container py-5">
+    <h1 class="text-center fw-bold mb-5">Meme Generator</h1>
+    <div class="row g-5 align-items-start">
+      <!-- LEFT: Controls -->
+      <div class="col-md-6" style="margin-top:10%;">
+        <div class="p-4 shadow rounded bg-white">
+          <label class="upload-label w-100 text-center mb-3">
+            Upload Image
+            <input type="file" id="imageInput" accept="image/*" hidden />
+          </label>
+          <input type="text" id="topText" placeholder="Top Text" class="form-control mb-3" />
+          <input type="text" id="bottomText" placeholder="Bottom Text" class="form-control mb-3" />
+          <button id="generateBtn" class="btn btn-primary w-100 mb-2">Generate Meme</button>
+          <button id="downloadBtn" class="btn btn-success w-100">Download Meme</button>
+        </div>
+      </div>
+
+      <!-- RIGHT: Meme Preview -->
+      <div class="col-md-6 text-center">
+        <div class="shadow rounded p-2 bg-white">
+          <canvas id="memeCanvas" width="500" height="500" class="img-fluid rounded"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer class="text-center mt-5 py-4 bg-light border-top">
+  <p class="mb-0 small text-secondary">
+    Designed & Developed with 
+    <i class="fa fa-heart text-danger mx-1"></i> 
+    by 
+    <a href="https://lucifer01430.github.io/Portfolio/" target="_blank" rel="noopener" class="fw-semibold text-decoration-none text-dark link-hover">
+      Harsh Pandey
+    </a>
+  </p>
+</footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
