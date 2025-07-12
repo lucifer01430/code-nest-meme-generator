@@ -21,7 +21,6 @@ Easily upload images, add meme-style top & bottom text, and download your creati
 ## 📸 Live Demo
 
 🚀 [Click here to view it live](https://lucifer01430.github.io/code-nest-meme-generator/)  
-*(Replace with your actual GitHub Pages / Netlify / Vercel link)*
 
 ---
 
