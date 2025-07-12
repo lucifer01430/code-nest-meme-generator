@@ -3,7 +3,7 @@
 A fully responsive and modern **Meme Generator Web App** designed and developed by [Harsh Pandey](https://lucifer01430.github.io/Portfolio/).  
 Easily upload images, add meme-style top & bottom text, and download your creation in one click!
 
-![Meme Generator Preview](./meme-preview.png)
+
 
 ---
 
@@ -20,7 +20,7 @@ Easily upload images, add meme-style top & bottom text, and download your creati
 
 ## 📸 Live Demo
 
-🚀 [Click here to view it live](https://your-live-link-here.com)  
+🚀 [Click here to view it live](https://lucifer01430.github.io/code-nest-meme-generator/)  
 *(Replace with your actual GitHub Pages / Netlify / Vercel link)*
 
 ---
